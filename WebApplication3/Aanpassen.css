@@ -1,0 +1,55 @@
+﻿body {
+    background-color: #f2f2f2;
+}
+input
+{
+    margin-left:10px;
+}
+p{
+    margin: 0 0 0 0;
+    display: inline-block;
+    width: 170px;
+    height: 25px;
+    text-align: left;
+}
+.inputpage
+{
+    
+}
+.content {
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background: rgba(0,0,0,0.1);
+    padding: 1%;
+    
+}
+#verander
+{
+      background: rgba(0,0,0,0.2);
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+  background-image: -o-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top :2%;
+}
+
+#verander:hover {
+  background: rgba(0,0,0,0.3);
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,1));
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,1));
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,1));
+  background-image: -o-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,1));
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,1));
+  text-decoration: none;
+}
