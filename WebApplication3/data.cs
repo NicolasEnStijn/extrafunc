@@ -9,6 +9,7 @@ using System.Linq;
 using System.IO;
 using System.Xml.Serialization;
 using System.Xml;
+using System.Text.RegularExpressions;
 
 namespace WebApplication3
 {
@@ -16,8 +17,8 @@ namespace WebApplication3
     {
         public static remoteprojects rp = null;
         private static int order = 0;
-        // private static string Xmlplaats = @"C:\Users\Nicolas\Documents\VIVES\stage\remoteprojects.xml";
-        private static string Xmlplaats = @"C:\Users\LAPTOP-Stijn\Desktop\stage\remoteprojects.xml";
+        private static string Xmlplaats = @"C:\Users\Nicolas\Documents\VIVES\stage\remoteprojects.xml";
+        //private static string Xmlplaats = @"C:\Users\LAPTOP-Stijn\Desktop\stage\remoteprojects.xml";
 
         public static remoteprojectsProject[] ordertable(object sender)
         {
@@ -76,7 +77,7 @@ namespace WebApplication3
             {
                 if (order == 2)
                 {
-                    order = 0;
+                    order = 3;
                     return rp.projects.OrderByDescending(u => u.municipality).ToArray();
                 }
                 else
@@ -85,9 +86,26 @@ namespace WebApplication3
                     return rp.projects.OrderBy(u => u.municipality).ToArray();
                 }
             }
-            else if(button.ID.Equals("wissen"))
+            else if(Regex.IsMatch(button.ID, @"^\d+$"))
             {
+                switch(order)
+                {
+                    case 0:
+                        return rp.projects.OrderByDescending(u => u.name).ToArray();
+                        break;
+                    case 1:
+                        return rp.projects.OrderBy(u => u.name).ToArray();
+                        break;
+                    case 2:
+                        return rp.projects.OrderBy(u => u.municipality).ToArray();
+                        break;
+                    case 3:
+                        return rp.projects.OrderByDescending(u => u.municipality).ToArray();
+                        break;
+                    default:
+                        return rp.projects;
 
+                }
             }
             return null;
         }

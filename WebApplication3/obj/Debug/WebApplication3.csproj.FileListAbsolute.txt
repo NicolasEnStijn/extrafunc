@@ -16,3 +16,9 @@ C:\Users\LAPTOP-Stijn\Desktop\stage\nicowissen-master\WebApplication3\bin\WebApp
 C:\Users\LAPTOP-Stijn\Desktop\stage\nicowissen-master\WebApplication3\obj\Debug\WebApplication3.csprojResolveAssemblyReference.cache
 C:\Users\LAPTOP-Stijn\Desktop\stage\nicowissen-master\WebApplication3\obj\Debug\WebApplication3.dll
 C:\Users\LAPTOP-Stijn\Desktop\stage\nicowissen-master\WebApplication3\obj\Debug\WebApplication3.pdb
+C:\Users\Nicolas\Documents\Visual Studio 2015\Projects\nicowissen-master\WebApplication3\bin\WebApplication3.dll.config
+C:\Users\Nicolas\Documents\Visual Studio 2015\Projects\nicowissen-master\WebApplication3\bin\WebApplication3.dll
+C:\Users\Nicolas\Documents\Visual Studio 2015\Projects\nicowissen-master\WebApplication3\bin\WebApplication3.pdb
+C:\Users\Nicolas\Documents\Visual Studio 2015\Projects\nicowissen-master\WebApplication3\obj\Debug\WebApplication3.csprojResolveAssemblyReference.cache
+C:\Users\Nicolas\Documents\Visual Studio 2015\Projects\nicowissen-master\WebApplication3\obj\Debug\WebApplication3.dll
+C:\Users\Nicolas\Documents\Visual Studio 2015\Projects\nicowissen-master\WebApplication3\obj\Debug\WebApplication3.pdb

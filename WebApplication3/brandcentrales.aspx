@@ -10,8 +10,9 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <asp:Button ID="aanmaken" runat="server" Text="Button" onclick="aanmaken_Click"/>
-        <asp:Button ID="wissen" runat="server" Text="wissen" OnClick="Page_Load" />
+        <div id ="menu">
+            <asp:Button ID="open" runat="server" Text="open" OnClick="Page_Load" CssClass="menubutton"/><asp:Button ID="aanpassen" runat="server" Text="aanpassen" OnClick="Page_Load" CssClass="menubutton"/><asp:Button ID="aanmaken" runat="server" Text="aanmaken" onclick="aanmaken_Click" CssClass="menubutton" /><asp:Button ID="wissen" runat="server" Text="wissen" OnClick="Page_Load" CssClass="menubutton"/>
+        </div>
             <asp:Table ID="Table1" runat="server" >
             <asp:TableRow cssclass="top">
                 <asp:TableCell CssClass="open"></asp:TableCell>

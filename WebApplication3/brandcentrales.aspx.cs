@@ -47,6 +47,13 @@ namespace WebApplication3
             {
                 if (send.ID.Equals("wissen"))
                 {
+                    mode = Mode.wissen;
+                }else if(send.ID.Equals("open"))
+                {
+                    mode = Mode.open;
+                }
+                else if(send.ID.Equals("aanpassen"))
+                {
                     mode = Mode.aanpassen;
                 }
             }
@@ -73,7 +80,7 @@ namespace WebApplication3
                 {
                     btn.ID = rpold[i].index.ToString();
                     btn.Text = "aanpassen";
-                    btn.Click += new EventHandler(aanpassen);
+                    btn.Click += new EventHandler(projectaanpassen);
                 }
 
                 btn.UseSubmitBehavior = false;
@@ -109,20 +116,17 @@ namespace WebApplication3
             }
         }
 
-
-
-
         public void SelectButton_Click(object sender, EventArgs e)
         {
             MsgBox("het programma wordt opgestart", this.Page, this);
             Button button = sender as Button;
             if (data.getIPAdress(Convert.ToInt32(button.ID)).Equals(""))
             {
-                //COMPorthelpers.changehostname(data.getProgramToLaunch(Convert.ToInt32(button.ID)), data.getHostname(Convert.ToInt32(button.ID))); // vul  het juiste hostname  in bij de juiste comport
+                COMPorthelpers.changehostname(data.getProgramToLaunch(Convert.ToInt32(button.ID)), data.getHostname(Convert.ToInt32(button.ID))); // vul  het juiste hostname  in bij de juiste comport
             }
             else
             {
-                //COMPorthelpers.changecomport(data.getProgramToLaunch(Convert.ToInt32(button.ID)), data.getIPAdress(Convert.ToInt32(button.ID))); // vul het juist IP-adres in bij de juiste comport
+                COMPorthelpers.changecomport(data.getProgramToLaunch(Convert.ToInt32(button.ID)), data.getIPAdress(Convert.ToInt32(button.ID))); // vul het juist IP-adres in bij de juiste comport
             }
         }
 
@@ -143,9 +147,11 @@ namespace WebApplication3
         {
             Button button = sender as Button;
             data.wissen(Convert.ToInt32(button.ID));
+            Page_Load(sender, e);
+            
         }
 
-        public void aanpassen(object sender, EventArgs e)
+        public void projectaanpassen(object sender, EventArgs e)
         {
             Button button = sender as Button;
             Response.Redirect("AanPassenMaken.aspx?index=" + button.ID);

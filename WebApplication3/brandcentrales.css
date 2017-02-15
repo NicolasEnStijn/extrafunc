@@ -1,4 +1,6 @@
 ﻿body {
+    margin:0px;
+    background-color:#84BD00;
 }
 
 div{
@@ -80,4 +82,24 @@ input{
 
 tr{
     height:20px;
+}
+
+.menubutton{
+    background-color:#84BD00;
+    width:25%;
+    border:0px;
+    border-left:1px black;
+    border-right:1px;
+
+    height:100%;
+}
+
+.menubutton:hover{
+    background-color:rgb(122, 154, 1);
+}
+
+#menu{
+    height:36px;
+    margin-left:60%;
+    width:40%;
 }
