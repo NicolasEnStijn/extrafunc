@@ -17,8 +17,9 @@ namespace WebApplication3
     {
         public static remoteprojects rp = null;
         private static int order = 0;
-        private static string Xmlplaats = @"C:\Users\Nicolas\Documents\VIVES\stage\remoteprojects.xml";
+        //private static string Xmlplaats = @"C:\Users\Nicolas\Documents\VIVES\stage\remoteprojects.xml";
         //private static string Xmlplaats = @"C:\Users\LAPTOP-Stijn\Desktop\stage\remoteprojects.xml";
+        private static string Xmlplaats =Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\remoteprojects.xml";
 
         public static remoteprojectsProject[] ordertable(object sender)
         {

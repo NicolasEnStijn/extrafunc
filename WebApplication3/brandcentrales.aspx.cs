@@ -122,11 +122,11 @@ namespace WebApplication3
             Button button = sender as Button;
             if (data.getIPAdress(Convert.ToInt32(button.ID)).Equals(""))
             {
-                COMPorthelpers.changehostname(data.getProgramToLaunch(Convert.ToInt32(button.ID)), data.getHostname(Convert.ToInt32(button.ID))); // vul  het juiste hostname  in bij de juiste comport
+                Task.Run(() => COMPorthelpers.changehostname(data.getProgramToLaunch(Convert.ToInt32(button.ID)), data.getHostname(Convert.ToInt32(button.ID)))); // vul  het juiste hostname  in bij de juiste comport
             }
             else
             {
-                COMPorthelpers.changecomport(data.getProgramToLaunch(Convert.ToInt32(button.ID)), data.getIPAdress(Convert.ToInt32(button.ID))); // vul het juist IP-adres in bij de juiste comport
+                Task.Run(() => COMPorthelpers.changecomport(data.getProgramToLaunch(Convert.ToInt32(button.ID)), data.getIPAdress(Convert.ToInt32(button.ID)))); // vul het juist IP-adres in bij de juiste comport
             }
         }
 
