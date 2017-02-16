@@ -113,61 +113,65 @@ namespace WebApplication3
         
         public static void Connectcheck()
         {
-            int i = 1;
-            for (i = 0; i < rp.projects.Count(); i++)
-            {
-                if (rp.projects[i].notitions.Equals(""))
+            try {
+                int i = 1;
+                for (i = 0; i < rp.projects.Count(); i++)
                 {
-                    Socket sock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                    sock.SetSocketOption(SocketOptionLevel.IP, SocketOptionName.TypeOfService, 0x03);
-                    String ip = "";
-                    if (rp.projects[i].ipaddress.Equals(""))
+                    if (rp.projects[i].notitions.Equals(""))
                     {
-                        ip = rp.projects[i].hostname;
-                    }
-                    else
-                    {
-                        ip = rp.projects[i].ipaddress;
-                    }
-
-                    try
-                    {
-                        var result = sock.BeginConnect(ip, Convert.ToInt16(rp.projects[i].tcpport), null, null);
-                        bool success = result.AsyncWaitHandle.WaitOne(1000, true);
-                        if (success)
+                        Socket sock = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+                        sock.SetSocketOption(SocketOptionLevel.IP, SocketOptionName.TypeOfService, 0x03);
+                        String ip = "";
+                        if (rp.projects[i].ipaddress.Equals(""))
                         {
-                            sock.EndConnect(result);
-                            byte[] bytes = new byte[8];
-                            sock.Receive(bytes);
-                            String txt = bytes[1].ToString();
-                            if (txt.Equals(""))
-                            {
-                                rp.projects[i].berijkbaar = remoteprojectsProject.bereikbaarheid.nietberijkbaar;
-                            }
-                            {
-                                rp.projects[i].berijkbaar = remoteprojectsProject.bereikbaarheid.berijkbaar;
-                            }
+                            ip = rp.projects[i].hostname;
                         }
                         else
                         {
-                            throw new SocketException(10060); // Connection timed out.
+                            ip = rp.projects[i].ipaddress;
+                        }
+
+                        try
+                        {
+                            var result = sock.BeginConnect(ip, Convert.ToInt16(rp.projects[i].tcpport), null, null);
+                            bool success = result.AsyncWaitHandle.WaitOne(1000, true);
+                            if (success)
+                            {
+                                sock.EndConnect(result);
+                                byte[] bytes = new byte[8];
+                                sock.Receive(bytes);
+                                String txt = bytes[1].ToString();
+                                if (txt.Equals(""))
+                                {
+                                    rp.projects[i].berijkbaar = remoteprojectsProject.bereikbaarheid.nietberijkbaar;
+                                }
+                                {
+                                    rp.projects[i].berijkbaar = remoteprojectsProject.bereikbaarheid.berijkbaar;
+                                }
+                            }
+                            else
+                            {
+                                throw new SocketException(10060); // Connection timed out.
+                            }
+                        }
+                        catch
+                        {
+                            rp.projects[i].berijkbaar = remoteprojectsProject.bereikbaarheid.nietberijkbaar;
+                        }
+                        finally
+                        {
+                            sock.Close();
                         }
                     }
-                    catch
+                    else
                     {
-                        rp.projects[i].berijkbaar = remoteprojectsProject.bereikbaarheid.nietberijkbaar;
-                    }
-                    finally
-                    {
-                        sock.Close();
+                        rp.projects[i].berijkbaar = remoteprojectsProject.bereikbaarheid.geeninfo;
                     }
                 }
-                else
-                {
-                    rp.projects[i].berijkbaar = remoteprojectsProject.bereikbaarheid.geeninfo;
-                }
-            }
+            }catch(IndexOutOfRangeException)
+            {
 
+            }
         }
 
         public static String getName(int index)
