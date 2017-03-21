@@ -35,8 +35,7 @@ namespace WebApplication3
         }
 
         protected void verander_Click(object sender, EventArgs e)
-        {
-             
+        {             
             int i = Array.FindIndex(data.rp.projects, indexofelement);
             try {
                 try {
@@ -75,9 +74,20 @@ namespace WebApplication3
                 {
                     throw new Exception("registryreference is verkeerd");
                 }
-                data.save();
-                Response.Redirect("brandcentrales.aspx");
-            }catch(Exception ex)
+                //implement serious security
+                if (password.Text.Equals("admin"))
+                {
+                    data.save();
+                    Response.Redirect("brandcentrales.aspx");
+                }
+                else
+                {
+                    MsgBox("paswoord is fout", this.Page, this);
+                    //extra beveiligen tegen brute force attacks
+
+                }
+            }
+            catch(Exception ex)
             {
                 MsgBox(ex.Message, this.Page, this);
             }
@@ -90,12 +100,15 @@ namespace WebApplication3
             ClientScriptManager cs = pg.ClientScript;
             cs.RegisterClientScriptBlock(cstype, s, s.ToString());
         }
-
-
+        
         private static bool indexofelement(remoteprojectsProject rpp)
         {
             return rpp.index == index;
         }
-    }
 
+        protected void back_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("brandcentrales.aspx");
+        }
+    }
 }

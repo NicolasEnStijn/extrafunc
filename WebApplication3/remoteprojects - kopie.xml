@@ -1,0 +1,758 @@
+<?xml version="1.0"?>
+<remoteprojects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <projects>
+    <project ID="1">
+      <index>1</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>ELECTRAWINDS</name>
+      <street>John Cordierlaan 9</street>
+      <municipality>Oostende</municipality>
+      <number>5250,1</number>
+      <ipaddress>10.0.10.71</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions>Eerst VPN opzetten via browser: ssl.electrawinds.be</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="2">
+      <index>2</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>ELECTRAWINDS</name>
+      <street>Lodewijk Cloiseau Kaai 45</street>
+      <municipality>Dudzele</municipality>
+      <number>5458,1</number>
+      <ipaddress>10.0.67.35</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions>Eerst VPN opzetten via browser: ssl.electrawinds.be</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="3">
+      <index>3</index>
+      <berijkbaar>nietberijkbaar</berijkbaar>
+      <name>NEW VEPELI</name>
+      <street>Slachthuisstraat 32 - 34</street>
+      <municipality>Moeskroen</municipality>
+      <number>2658,1</number>
+      <ipaddress />
+      <hostname>newvepeli.dyndns.org</hostname>
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="4">
+      <index>4</index>
+      <berijkbaar>berijkbaar</berijkbaar>
+      <name>DENDERRUST</name>
+      <street>Alfons De Cockstraat 12A</street>
+      <municipality>Herdersem</municipality>
+      <number>519,1</number>
+      <ipaddress>81.82.202.134</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="5">
+      <index>5</index>
+      <berijkbaar>nietberijkbaar</berijkbaar>
+      <name>STADHUIS</name>
+      <street>Botermarkt</street>
+      <municipality>Gent</municipality>
+      <number>4099,1</number>
+      <ipaddress />
+      <hostname>stadhuisgent.dyndns-ip.com</hostname>
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="6">
+      <index>6</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>VAN MARCKE Magazijnen</name>
+      <street>Weggevoerdenlaan 5</street>
+      <municipality>Kortrijk</municipality>
+      <number>2699,3</number>
+      <ipaddress>192.56.120.110</ipaddress>
+      <hostname />
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions>Deze installatie is enkel bereikbaar via remote desktop naar 194.78.14.42 PAS OP: VERSIE 2 MD2400</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="7">
+      <index>7</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>VAN MARCKE Toren</name>
+      <street>Weggevoerdenlaan 5</street>
+      <municipality>Kortrijk</municipality>
+      <number>2699,6</number>
+      <ipaddress>192.56.120.111</ipaddress>
+      <hostname />
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions>Deze installatie is enkel bereikbaar via remote desktop naar 194.78.14.42 PAS OP: VERSIE 2 MD2400</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="8">
+      <index>8</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>VAN MARCKE</name>
+      <street>Quai de coronmeuse 39</street>
+      <municipality>Luik</municipality>
+      <number>5954,1</number>
+      <ipaddress>192.41.1.56</ipaddress>
+      <hostname />
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions>Deze installatie is enkel bereikbaar via remote desktop naar 194.78.14.42 PAS OP: VERSIE 2 MD2400</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="9">
+      <index>9</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>VAN MARCKE</name>
+      <street>Leuvensesteenweg 390</street>
+      <municipality>Zaventem</municipality>
+      <number>4557,2</number>
+      <ipaddress>192.2.4.253</ipaddress>
+      <hostname />
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions>Deze installatie is enkel bereikbaar via remote desktop naar 194.78.14.42 PAS OP: VERSIE 2 MD2400</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="9">
+      <index>10</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>VAN MARCKE</name>
+      <street>Bissegemstraat</street>
+      <municipality>Heule</municipality>
+      <number>6044,1</number>
+      <ipaddress>10.200.3.242</ipaddress>
+      <hostname />
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions>Deze installatie is enkel bereikbaar via remote desktop naar 194.78.14.42 PAS OP: VERSIE 2 MD2400</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="10">
+      <index>11</index>
+      <berijkbaar>berijkbaar</berijkbaar>
+      <name>FLANDERS FIELD MUSEUM</name>
+      <street>Grote Markt</street>
+      <municipality>Ieper</municipality>
+      <number>5308,1</number>
+      <ipaddress>194.78.36.113</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="11">
+      <index>12</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>AZ DAMIAAN</name>
+      <street>Gouwelozestraat 100</street>
+      <municipality>Oostende</municipality>
+      <number>5034,1</number>
+      <ipaddress>10.31.161.200</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="12">
+      <index>13</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>AD DELHAIZE</name>
+      <street>Steenstraat 5</street>
+      <municipality>Roeselare</municipality>
+      <number>5517,1</number>
+      <ipaddress />
+      <hostname>ad-roeselare.no-ip.org</hostname>
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="13">
+      <index>14</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>Stadhuis</name>
+      <street>MARKT</street>
+      <municipality>Leuven</municipality>
+      <number>3870,2</number>
+      <ipaddress />
+      <hostname>stadhuisleuven.dynalias.org</hostname>
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="14">
+      <index>15</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>De Zande(Datalokaal)</name>
+      <street>Sint Andreaslaan 54</street>
+      <municipality>Beernem</municipality>
+      <number>5046,2</number>
+      <ipaddress>81.82.250.108</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="15">
+      <index>16</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>De Zande(Schuur)</name>
+      <street>Sint Andreaslaan 5</street>
+      <municipality>Beernem</municipality>
+      <number>5046,3</number>
+      <ipaddress>81.82.250.108</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>17002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="16">
+      <index>17</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>De Zande(School)</name>
+      <street>Sint Andreaslaan 5</street>
+      <municipality>Beernem</municipality>
+      <number>2668,0</number>
+      <ipaddress>81.82.250.108</ipaddress>
+      <hostname />
+      <serialportnumber>COM6</serialportnumber>
+      <tcpport>7001</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2000.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="17">
+      <index>18</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>Residentie Pamele</name>
+      <street>Budastraat</street>
+      <municipality>Kortrijk</municipality>
+      <number>5697,1</number>
+      <ipaddress>212.123.19.4</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="18">
+      <index>19</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>Trustteam</name>
+      <street>Evolis 78</street>
+      <municipality>Kortrijk</municipality>
+      <number>5892,1</number>
+      <ipaddress>195.207.46.10</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="19">
+      <index>20</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>Gentse Haard</name>
+      <street>Leiekaai 34</street>
+      <municipality>Gent</municipality>
+      <number>5682,4</number>
+      <ipaddress />
+      <hostname>leiekaai34.dyndns-ip.com</hostname>
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="20">
+      <index>21</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>OCMW Schoten</name>
+      <street>Verbertstraat 25</street>
+      <municipality>Schoten</municipality>
+      <number>4528,6</number>
+      <ipaddress />
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions>Via logmein de computer in het OCMW overnemen</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="21">
+      <index>22</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>CRC INDUSTRIES</name>
+      <street>Touwslagerstraat 1</street>
+      <municipality>Zele</municipality>
+      <number>189,1</number>
+      <ipaddress>94.107.195.9</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="22">
+      <index>23</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>CRC INDUSTRIES</name>
+      <street>Langeveldestraat 1</street>
+      <municipality>Zele</municipality>
+      <number>4587,1</number>
+      <ipaddress>94.107.195.10</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="23">
+      <index>24</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>Plukon</name>
+      <street />
+      <municipality>Moeskroen</municipality>
+      <number>96,1</number>
+      <ipaddress>10.1.101.60</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions>Eerst VPN verbinding opzetten met plukon</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="24">
+      <index>25</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>KEI</name>
+      <street>Dewittelaan 1</street>
+      <municipality>Oostduinkerke</municipality>
+      <number>6168,1</number>
+      <ipaddress>194.78.94.172</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="25">
+      <index>26</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>UNIFROST</name>
+      <street>Zwevezeelsestraat 142</street>
+      <municipality>Koolskamp</municipality>
+      <number>508,2</number>
+      <ipaddress />
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions>surfen naar https://connect.dujardin-foods.com en ica client installeren</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="26">
+      <index>27</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>SINT JAN BAPTIST</name>
+      <street>Suikerkaai 80</street>
+      <municipality>Zelzate</municipality>
+      <number>231,1</number>
+      <ipaddress />
+      <hostname />
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions>remote desktop naar ts.sjbtd.be, user kztech\ardovlam en pasw Adv8850</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="27">
+      <index>28</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>Bert Maes</name>
+      <street>Nijverheidsstraat 2</street>
+      <municipality>Meulebeke</municipality>
+      <number>6121,1</number>
+      <ipaddress>91.183.207.146</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="28">
+      <index>29</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>Kinkhoorn</name>
+      <street>Zeedijk 330</street>
+      <municipality>Oostende</municipality>
+      <number>6035,1</number>
+      <ipaddress />
+      <hostname>remote.vayamundo.be</hostname>
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="29">
+      <index>30</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>ARHUS</name>
+      <street>De Munt 8</street>
+      <municipality>Roeselare</municipality>
+      <number>5725,1</number>
+      <ipaddress>212.123.28.162</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7004</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="30">
+      <index>31</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>COCA COLA</name>
+      <street>ZWIJNAARDSESTEENWEG 811</street>
+      <municipality>GENT</municipality>
+      <number>150,0</number>
+      <ipaddress />
+      <hostname>cocacolagent.dyndns.org</hostname>
+      <serialportnumber>COM6</serialportnumber>
+      <tcpport>7001</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2000.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="31">
+      <index>32</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>HIP SINT JAN</name>
+      <street>OOSTMEERS 27</street>
+      <municipality>BRUGGE</municipality>
+      <number>558,1</number>
+      <ipaddress />
+      <hostname>hip.mavdns.be</hostname>
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="32">
+      <index>33</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>TEAM INDUSTRIES</name>
+      <street>INDUSTRIEWEG 50</street>
+      <municipality>ROESELARE</municipality>
+      <number>5502,1</number>
+      <ipaddress>192.168.100.251</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions>EERST EEN PPTP VERBINDING MAKEN</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="33">
+      <index>34</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>BUURTSLAGERS</name>
+      <street>GROENDREEF 10</street>
+      <municipality>AALTER</municipality>
+      <number>5068,2</number>
+      <ipaddress>194.78.8.101</ipaddress>
+      <hostname />
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions>EERST EEN PPTP VERBINDING MAKEN</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="34">
+      <index>35</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>PARTIES COMMUNES</name>
+      <street>Louizalaan 327</street>
+      <municipality>BRUSSEL</municipality>
+      <number>4560,1</number>
+      <ipaddress />
+      <hostname>partiescommunes.dyndns.org</hostname>
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="35">
+      <index>36</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>BEGRO</name>
+      <street>Tombrugstraat 8B</street>
+      <municipality>ARDOOIE</municipality>
+      <number>5372,1</number>
+      <ipaddress>91.183.129.178</ipaddress>
+      <hostname />
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="36">
+      <index>37</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>STERCKX</name>
+      <street>KACHTEMSESTRAAT 330</street>
+      <municipality>Roeselare</municipality>
+      <number>6862,1</number>
+      <ipaddress />
+      <hostname>https://citrix.sterckx.com</hostname>
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions>Deze installatie is enkele bereikbaar dmv een citrix server connectie</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="37">
+      <index>38</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>MERCURY FLOORING</name>
+      <street>STEENOVENSTRAAT 38</street>
+      <municipality>Waregem</municipality>
+      <number>6829,1</number>
+      <ipaddress>91.183.204.153</ipaddress>
+      <hostname />
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions>Deze installatie is enkele bereikbaar dmv een citrix server connectie</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="38">
+      <index>39</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>WZC REGENBOOG</name>
+      <street>REGENBOOGLAAN 14</street>
+      <municipality>Zwijndrecht</municipality>
+      <number>2755,1</number>
+      <ipaddress />
+      <hostname>mail.deregenboog.zkj.be</hostname>
+      <serialportnumber>COM7</serialportnumber>
+      <tcpport>7001</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400.rdp</programtolaunch>
+      <notitions>Deze installatie is enkele bereikbaar dmv een citrix server connectie</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="39">
+      <index>40</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>COMPLEXE SPORTIF</name>
+      <street>RUE DU STADE</street>
+      <municipality>MOESKROEN</municipality>
+      <number>5392,2</number>
+      <ipaddress />
+      <hostname>stademouscron.dyndns.org</hostname>
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="40">
+      <index>41</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>BRASSERIE DUPONT</name>
+      <street>RUE BASSE 5</street>
+      <municipality>TOURPES</municipality>
+      <number>4878,1</number>
+      <ipaddress>91.183.38.85</ipaddress>
+      <hostname />
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="41">
+      <index>42</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>HOUFFALIZE</name>
+      <street>XXXXX</street>
+      <municipality>HOUFFALIZE</municipality>
+      <number>0000,0</number>
+      <ipaddress>212.166.51.20</ipaddress>
+      <hostname />
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="42">
+      <index>43</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>LIBERTPAINTS</name>
+      <street>XXXXX</street>
+      <municipality>GENT</municipality>
+      <number>7050,1</number>
+      <ipaddress />
+      <hostname>citrix.libertpaints.com</hostname>
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions>gebruik internet explorer door te surfen naar de hostname, login op bureaublad</notitions>
+      <registryreference>1</registryreference>
+    </project>
+    <project ID="43">
+      <index>44</index>
+      <berijkbaar>geeninfo</berijkbaar>
+      <name>RESIDENTIE SWEETNEST</name>
+      <street>XXXXX</street>
+      <municipality>knokke</municipality>
+      <number />
+      <ipaddress>81.82.248.73</ipaddress>
+      <hostname />
+      <serialportnumber>COM8</serialportnumber>
+      <tcpport>7002</tcpport>
+      <connectionmode>lite mode</connectionmode>
+      <typeofsystem>2</typeofsystem>
+      <programtolaunch>\\w2008-webtool\rdp files\pc_md2400_v2.exe</programtolaunch>
+      <notitions />
+      <registryreference>1</registryreference>
+    </project>
+  </projects>
+  <registryreferences>
+    <registryreference ID="1">
+      <location>none</location>
+    </registryreference>
+  </registryreferences>
+</remoteprojects>

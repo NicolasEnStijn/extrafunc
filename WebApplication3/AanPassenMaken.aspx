@@ -23,7 +23,8 @@
       <div class="inputpage"> <p>programtolaunch</p><asp:TextBox ID="programtolaunch" runat="server"></asp:TextBox></div>
       <div class="inputpage"> <p>notitions</p><asp:TextBox ID="notitions" runat="server"></asp:TextBox></div>
       <div class="inputpage"> <p>registryreference</p><asp:TextBox ID="registryreference" runat="server"></asp:TextBox></div>
-      <div class="inputpage"> <asp:Button ID="verander" runat="server" Text="verander" onclick="verander_Click"/>
+      <div class="inputpage"> <p>Wachtwoord</p><asp:TextBox ID="password" runat="server"></asp:TextBox>  
+      <div class="inputpage"> <asp:Button  CssClass="knop" ID ="verander" runat="server" Text="verander" onclick="verander_Click"/><asp:Button  CssClass="knop" ID="back" runat="server" Text="Annuleren" onclick="back_Click"/></div>
 
     </div>
     </form>

@@ -276,6 +276,10 @@ ref PropertyChangeParameters classInstallParams, int classInstallParamsSize);
                 // Disable...
                 EnableDevice(diSetHandle, diData[index], enable);
             }
+            catch 
+            {
+
+            }
             finally
             {
                 if (diSetHandle != null)

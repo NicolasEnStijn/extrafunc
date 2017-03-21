@@ -25,7 +25,7 @@ p{
     padding: 1%;
     
 }
-#verander
+.knop
 {
       background: rgba(0,0,0,0.2);
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,0.5));
@@ -44,7 +44,7 @@ p{
   margin-top :2%;
 }
 
-#verander:hover {
+.knop:hover {
   background: rgba(0,0,0,0.3);
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,1));
   background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,1));

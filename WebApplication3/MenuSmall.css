@@ -1,4 +1,18 @@
-﻿body {
+﻿article {
+    margin: 0px;
+}
+#brand
+{
+    float:none;
+    margin-left: 7.5%;
+}
+#inbraak
+{
+    float:none;
+    margin-left: 7.5%;
+}
+
+body {
       background-color: #f2f2f2;
 }
 
@@ -22,21 +36,6 @@ article
 {
     display:inline-block;
     margin-top : 2%;
-}
-
-#brand{
-    display: inline;
-    margin-left: 15%;
-    margin-right: 3%;
-    float: left;
-}
-#inbraak
-{
-    display: inline;
-    margin-right: 15%;
-    margin-left: 3%;
-    float:right;
-
 }
 
 .hovergrid five-col-grid > * {

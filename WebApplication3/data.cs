@@ -10,16 +10,21 @@ using System.IO;
 using System.Xml.Serialization;
 using System.Xml;
 using System.Text.RegularExpressions;
+using System.Diagnostics;
 
 namespace WebApplication3
 {
     public static class data
     {
         public static remoteprojects rp = null;
-        private static int order = 0;
-        //private static string Xmlplaats = @"C:\Users\Nicolas\Documents\VIVES\stage\remoteprojects.xml";
-        //private static string Xmlplaats = @"C:\Users\LAPTOP-Stijn\Desktop\stage\remoteprojects.xml";
-        private static string Xmlplaats =Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\remoteprojects.xml";
+        private static int order = -1;
+        private static string Xmlplaats = "";
+
+        public static string XMLPlaats
+        {
+            get { return Xmlplaats; }
+            set { Xmlplaats = value; }
+        }
 
         public static remoteprojectsProject[] ordertable(object sender)
         {
@@ -31,18 +36,27 @@ namespace WebApplication3
                 {
                     if (rp == null)
                     {
-                        XmlSerializer serializer = new XmlSerializer(typeof(remoteprojects));
-                        FileStream fs = new FileStream(Xmlplaats, FileMode.Open);
-                        XmlReader reader = XmlReader.Create(fs);
-                        rp = (remoteprojects)serializer.Deserialize(reader);
-                        fs.Close();
-                        for (int i = 0; i < rp.projects.Length; i++)
-                        {
-                            rp.projects[i].index = i;
-                        }
-                        Task.Run(() => Connectcheck());
-                        return rp.projects;
-                    }
+                       try
+                       {
+                            XmlSerializer serializer = new XmlSerializer(typeof(remoteprojects));
+                            FileStream fs = new FileStream(Xmlplaats, FileMode.Open);
+                            XmlReader reader = XmlReader.Create(fs);
+                            rp = (remoteprojects)serializer.Deserialize(reader);
+                            fs.Close();
+
+                            for (int i = 0; i < rp.projects.Length; i++)
+                            {
+                                rp.projects[i].index = i;
+                            }
+                            Task.Factory.StartNew(() => Connectcheck());
+                            
+                            return rp.projects;
+                       }
+                    catch(Exception ex)
+                    {
+                            Xmlplaats = "";                            
+                     }
+                  }
                 }
                 else if (tb.ID.Equals("TextBoxNaam"))
                 {
@@ -50,7 +64,6 @@ namespace WebApplication3
                             where x.name.ToLower().Contains(tb.Text.ToLower())
                             select x;
                     return (remoteprojectsProject[])q.ToArray();
-
                 }
                 else if (tb.ID.Equals("TextBoxMunicipality"))
                 {
@@ -66,7 +79,6 @@ namespace WebApplication3
                 {
                     order = 0;
                     return rp.projects.OrderByDescending(u => u.name).ToArray();
-
                 }
                 else
                 {
@@ -109,8 +121,7 @@ namespace WebApplication3
                 }
             }
             return null;
-        }
-
+        }     
         
         public static void Connectcheck()
         {
@@ -259,8 +270,8 @@ namespace WebApplication3
 
         public static int create()
         {
-            remoteprojectsProject[] na = new remoteprojectsProject[(rp.projects.Count() + 1)];
-            Array.Copy(rp.projects, na, rp.projects.Count());
+            remoteprojectsProject[] NewArray  = new remoteprojectsProject[(rp.projects.Count() + 1)]; //maak een array die een langer is dan oude
+            Array.Copy(rp.projects, NewArray , rp.projects.Count()); //copieer de oude array
             int index;
             bool b = true;
             for (index = rp.projects.Count(); b; index++)
@@ -275,9 +286,10 @@ namespace WebApplication3
             }
             remoteprojectsProject nrpp= new remoteprojectsProject();
             nrpp.index = index;
-            na[na.Count() - 1] = nrpp;
-            rp.projects = na;
+            NewArray[NewArray.Count() - 1] = nrpp;
+            rp.projects = NewArray;
             return index;
         }
+
     }
 }
